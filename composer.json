@@ -1,5 +1,5 @@
 {
-    "name": "hds/helloworld",
+    "name": "magehds/helloworld",
     "description": "Simple Hello World Module for Magento 2",
     "type": "magento2-module",
     "license": [
@@ -19,7 +19,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Hds\\HelloWorld\\": ""
+            "MageHds\\HelloWorld\\": ""
         }
     }
 }
