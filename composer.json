@@ -1,0 +1,25 @@
+{
+    "name": "hds/helloworld",
+    "description": "Simple Hello World Module for Magento 2",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "email": "mukesh.hds@gmail.com",
+            "name": "Hds"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Hds\\HelloWorld\\": ""
+        }
+    }
+}
